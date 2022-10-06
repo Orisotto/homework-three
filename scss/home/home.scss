@@ -1,0 +1,227 @@
+.home-container {
+    max-width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+
+    .home-hero {
+        max-width: 100%;
+        height: 500px;
+        background-image: linear-gradient( to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .callout-container {
+            width: 484px;
+            min-height: 500px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            
+            .callout {
+                width: 484px;
+                height: 244px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+
+                h1 {
+                    font-family: proxima-nova-condensed;
+                    font-size: 60px;
+                }
+
+                p {
+                    font-family: gill-sans;
+                    font-size: 20px;
+                }
+
+                .read-more {
+                    padding: 10px 20px;
+                    color: white;
+                    background-color: #79ADDC;
+                }
+            }
+        }    
+
+
+    }
+
+    .home-nav {
+        border-bottom: solid 3px white;
+        .links {
+            color: white;
+
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+.promos {
+    margin-top: -50px;
+}
+
+.booking {
+    margin: 0 auto;
+    min-height: 793px;
+
+    .booking-wrapper {
+        max-width: 818px;
+        margin: 0 auto;
+
+        .booking-callout {
+            font-family: proxima-nova-condensed;
+            font-size: 60px;
+            padding-top: 40px;
+        }
+
+        .input-form {
+
+            .booking-info {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+
+                input {
+                    padding-left: 20px;
+                    font-family: gill-sans;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    border: solid 1px #79ADDC;
+                }
+
+                #name {
+                    width: 344px;
+                    height: 58px;
+                }
+
+                #email {
+                    width: 453px;
+                    height: 58px;
+                }
+
+                #country {
+                    width: 344px;
+                    height: 58px;
+                }
+
+                #hotel {
+                    width: 453px;
+                    height: 58px;
+                }
+            }
+
+            .checkIn-form {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .check-container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    position: relative;
+                }
+
+                input {
+                    width: 698px;
+                    height: 58px;
+                    padding-left: 20px;
+                    font-family: gill-sans;
+                    font-size: 18px;
+                    border: solid 1px #79ADDC;
+                }
+
+                label {
+                    font-family: gill-sans;
+                    font-size: 18px;
+                }
+
+                img {
+                    width: 19px;
+                    height: 19px;
+                    position: absolute;
+                    right: 20px;
+                }
+            }
+
+            .guests {
+                width: 818px;
+                height: 58px;
+                display: flex;
+                justify-content: space-between;
+
+                .drop-down {
+                    width: 220px;
+                    height: 58px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    position: relative;
+
+                    input {
+                        width: 103px;
+                        height: 58px;
+                        padding-left: 20px;
+                        font-family: gill-sans;
+                        font-size: 18px;
+                        border: solid 1px #79ADDC;
+                    }
+
+                    label {
+                        font-family: gill-sans;
+                        font-size: 18px;
+                    }
+
+                    img {
+                        width: 19px;
+                        height: 19px;
+                        position: absolute;
+                        right: 10px;
+                    }
+                }
+            }
+
+            .booking-message {
+                input {
+                    width: 818px;
+                    height: 192px;
+                    margin-top: 20px;
+                    padding-left: 20px;
+                    font-family: gill-sans;
+                    font-size: 18px;
+                    border:  solid 1px #79ADDC;
+                }
+            }
+
+            .booking-submit {
+                input {
+                    width: 813px;
+                    height: 70px;
+                    border-radius: 30px;
+                    margin-top: 37px;
+                    margin-bottom: 100px;
+                    border: none;
+                    background-color: #79ADDC;
+                    color: white;
+                    font-family: gill-sans;
+                    font-size: 15px;
+                    
+                }
+
+                #message::placeholder {
+                    text-align: left;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+
+}

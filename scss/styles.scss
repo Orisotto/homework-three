@@ -1,0 +1,20 @@
+// General Structure
+@import "structure.scss";
+@import "nav/nav.scss";
+@import "footer/footer.scss";
+
+// Home Page Styling
+@import "home/home.scss";
+
+// About Page Styling
+@import "about/about-description.scss";
+@import "about/client.scss";
+
+// Tour Page Styling
+@import "tours/tours.scss";
+@import "tours/tour-days.scss";
+
+// Special Offers Styling
+@import "special-offers/deals.scss";
+@import "blog/blog.scss";
+@import "contact/contact.scss";
